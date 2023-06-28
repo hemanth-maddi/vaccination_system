@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LOGIN OR SIGNUP</title>
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #0099ff;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            margin-right: 10px;
+        }
+        
+        .button:hover {
+            background-color: #0077cc;
+        }
+        
+        p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .dashboard {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+        }
+        
+        .dashboard .box {
+            width: 300px;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+            margin-right: 20px;
+        }
+        
+        .dashboard .box h2 {
+            color: #333;
+            font-size: 20px;
+        }
+        
+        .dashboard .box .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .dashboard .box .button-container .button {
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="box">
+            <div style="color:#333; font-size: larger;"> You are one step away from getting vaccinated, please provide the information of yours to get validated</div>
+            <div class="button-container">
+                <a href="user_login.php" class="button">Login</a>
+                <a href="user_signup.php" class="button">Signup</a>
+            </div><br>
+            <div style="color:black; font-size: small;">If you are Admin Login here !!!!</div>
+            <div class="button-container">
+                <a href="admin_login.php" class="button">Admin Login</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

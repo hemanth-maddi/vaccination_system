@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vaccination Booking</title>
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            animation: fadeIn 1s ease forwards;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #0099ff;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        
+        .button:hover {
+            background-color: #0077cc;
+        }
+        .scrolling-text {
+            overflow: hidden;
+        }
+
+        .scrolling-text marquee {
+            color:#333;
+            width: 100%;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="scrolling-text">
+            <marquee behavior="scroll" direction="left">
+                <span>Get vaccinated, stay safe!</span>
+                <span>Protect yourself and others with a vaccine.</span>
+                <span>Together, we can beat COVID-19!</span>
+                <span>Vaccination is our way back to normalcy.</span>
+            </marquee>
+        </div>
+        <h1>Welcome to Vaccination Booking</h1>
+        <p>Book your COVID-19 vaccination slot now!</p>
+        <a href="loading_page.html" class="button">Book Now</a>
+    </div>
+</body>
+</html>
